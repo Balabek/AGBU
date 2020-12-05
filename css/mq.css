@@ -1,0 +1,1360 @@
+/* Custom media queries for smooth web response */
+/* by Madddy of Bright8Media™ */
+
+
+/* !!!!!! IMPORTANT !!!!!! */
+@media (max-width: 767px) {
+    #agbunav_collapse_1 {
+        height: auto;
+        border: transparent;
+        background-color: #ffffff;
+        position: relative;
+        z-index: 2000;
+
+    }
+}
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Navbar ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+@media (min-width: 1600px){
+    .hamburger {top: 3.3%;}
+}
+@media (min-width: 2500px){
+    .hamburger {top: 2.5%;}
+}
+
+
+
+/* >>>>> SM/XS <<<<< */
+@media (max-width: 1188px){
+    .mainlogo {width: 55%;}
+    .navbar-brand {top: -1%;}
+}
+@media (max-width: 1055px){
+    .navbar-brand {left: 30%;}
+}
+
+@media (max-width: 950px){
+    .mainlogo {width: 40%; top: 80%;}
+    .navbar-brand {left: 25%;}
+}
+
+@media (max-width: 850px){
+    .mainlogo {width: 33%; top: 105%;}
+    .navbar-brand {left: 21%;}
+}
+
+@media (max-width: 767px){
+    .mainlogo {width: 50%; top: 60%;}
+    .navbar-brand {left: 43%;}
+}
+
+@media (max-width: 555px){
+    .navbar-toggle {margin-top: 4%;}
+}
+
+@media (max-width: 530px){
+    input.navsearch:focus {width: 445px;}
+    .mainlogo {width: 50%; top: 100%;}
+}
+@media (max-width: 475px){
+    input.navsearch:focus {width: 415px;}
+    input.navsearch {font-size: 1.2rem;}
+}
+@media (max-width: 444px){
+    input.navsearch:focus {width: 380px;}
+}
+@media (max-width: 410px){
+    input.navsearch:focus {width: 340px;}
+}
+@media (max-width: 360px){
+    input.navsearch:focus {width: 310px;}
+    input.navsearch {font-size: 1.1rem;}
+}
+@media (max-width: 320px){
+    .hamburger {top: 9%;}
+    .mainlogo {top: 90%;}
+    .navbar-toggle {margin-top: 6%;}
+    input.navsearch:focus {width: 270px;}
+    input.navsearch {font-size: 1.1rem;}
+}
+
+
+/* ------ */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ HOMEPAGE Header ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+@media (min-width: 1300px){
+    .grid figure img.smaller_pic {height: 16.96vw;}
+}
+
+@media (min-width: 1900px) {
+    .grid figure img.smaller_pic {height: 17.17vw;}
+}
+
+@media (min-width: 2500px) {
+    .grid figure.biggz {right: 14%; width: 128%;}
+}
+
+@media (min-width: 3200px) {
+    .grid figure.biggz {right: 50%; width: 196%;}
+}
+
+
+/* >>>>> SM/XS <<<<< */
+@media (max-width: 1160px){
+    figure.effect-sadie p.sm_addinfo {font-size: 0.9rem;}
+}
+
+@media (max-width: 1035px){
+    figure.effect-sadie p.sm_addinfo {padding-left: 10px; padding-right: 7px;}
+}
+
+@media (max-width: 991px){
+    figure.effect-sadie p.sm_addinfo {font-size: 0.8rem;}
+    h5.sm_caption {margin-top: -18%; right: 15%; font-size: 0.9rem;}
+}
+
+@media (max-width: 825px){
+    h5.sm_caption {font-size: 0.8rem;}
+}
+
+@media (max-width: 767px){
+    .grid figure.smallz {width: 50%;}
+    .grid figure.biggz {width: 100%;}
+    .grid figure img.smaller_pic {height: 40vw;}
+    h5.sm_caption {margin-top: -1%; right: 1%; font-size: 1.5rem;}
+    figure.effect-sadie p.sm_addinfo {padding-left: 25px; padding-right: 40px; font-size: 1.2rem;}
+}
+
+@media (max-width: 555px){
+    figure.effect-sadie p.sm_addinfo {display: none;}
+}
+
+
+/* ----- */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ What We Do area ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+
+/* >>>>> SM/XS <<<<< */
+
+@media (max-width: 767px){
+    p.whatwedo_info {left: 0;}
+}
+
+@media (max-width: 400px){
+    p.whatwedo_info {font-size: 1.6rem;}
+}
+
+
+/* ----- */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Featured Resources area ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+
+/* >>>>> SM/XS <<<<< */
+
+@media (max-width: 1046px){
+    figure.effect-sadie h4.resource_info_ttl {font-size: 1.5rem; bottom: 115px;}
+}
+
+@media (max-width: 941px){
+    figure.effect-sadie h4.resource_info_ttl {font-size: 1.3rem; bottom: 111px;}
+    figure.effect-sadie p.resource_info {bottom: 5px; font-size: 0.8rem;}
+}
+
+@media (max-width: 767px){
+    .grid figure img.resource_thumb {height: 50vw;}
+    h5.sm_caption {font-size: 1rem; right: 5%; top: -5%;}
+    figure.effect-sadie h4.resource_info_ttl {font-size: 2.5rem; bottom: 200px;}
+    figure.effect-sadie p.resource_info {bottom: 50px; font-size: 1.4rem;}
+}
+
+@media (max-width: 686px){
+    figure.effect-sadie h4.resource_info_ttl {font-size: 2.1rem; bottom: 150px;}
+    figure.effect-sadie p.resource_info {bottom: 50px; font-size: 1.1rem;}
+}
+
+@media (max-width: 586px){
+    figure.effect-sadie h4.resource_info_ttl {font-size: 1.4rem; bottom: 160px;}
+    figure.effect-sadie p.resource_info {bottom: 50px; font-size: 1.1rem;}
+}
+
+@media (max-width: 561px){
+    figure.effect-sadie h4.resource_info_ttl {font-size: 1.2rem; bottom: 170px;}
+    figure.effect-sadie p.resource_info {bottom: 50px; font-size: 1rem;}
+}
+
+@media (max-width: 500px){
+    h5.sm_caption {font-size: 1rem; right: 12%; top: -12%;}
+    figure.effect-sadie h4.resource_info_ttl {font-size: 1.2rem; bottom: 150px;}
+    figure.effect-sadie p.resource_info {bottom: 30px; font-size: 1rem;}
+}
+
+@media (max-width: 470px){
+    figure.effect-sadie h4.resource_info_ttl {display: none;}
+    figure.effect-sadie p.resource_info {display: none;}
+}
+
+
+/* ----- */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Submit Idea area ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+
+/* >>>>> SM/XS <<<<< */
+
+@media (max-width: 991px){
+    p.idea_txt {font-size: 2.3rem;}
+    img.ideabulb {width: 10%;}
+}
+
+@media (max-width: 767px){
+    p.idea_txt {font-size: 2.3rem;}
+    img.ideabulb {width: 11%;}
+}
+
+@media (max-width: 550px){
+    img.ideabulb {width: 14%;}
+}
+
+@media (max-width: 480px){
+    p.idea_txt {font-size: 2rem;}
+    img.ideabulb {width: 18%;}
+    button.submitidea {font-size: 1.9rem;}
+}
+
+
+
+/* ----- */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Email Subscription area ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+
+/* >>>>> SM/XS <<<<< */
+
+@media (max-width: 1199px){
+    input.sbscr_email {margin-left: 3%;}
+}
+
+@media (max-width: 767px){
+    .emailsubmit {right: 8%;}
+}
+@media (max-width: 585px){
+    .emailsubmit {right: 6%;}
+}
+@media (max-width: 511px){
+    input.sbscr_email {margin-left: 2%; margin-top: 2.5%;}
+    small.subscribe_ttl {margin-top: 5%; font-size: 0.9rem;}
+    .emailsubmit {right: 7%; top: 24%;}
+}
+
+@media (max-width: 413px){
+    small.subscribe_ttl {display: none;}
+    input.sbscr_email {width: 98%;}
+}
+
+
+/* ----- */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Contact Us area ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+
+/* >>>>> SM/XS <<<<< */
+
+@media (max-width: 991px){
+    .contact_chevron {width: 4%;}
+}
+@media (max-width: 603px){
+    .contact_chevron {width: 5%;}
+}
+@media (max-width: 450px){
+    .contact_chevron {width: 6%;}
+}
+@media (max-width: 375px){
+    .contact_chevron {width: 7%;}
+}
+
+
+/* ----- */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ Footer & Co. area ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+
+/* >>>>> SM/XS <<<<< */
+
+@media (max-width: 767px){
+    ul.footermenu {margin-left: -4%;}
+    ul.socialize {left: 4%;}
+}
+@media (max-width: 603px){
+    h5.footer_afterword {left: 3%;}
+}
+@media (max-width: 555px){
+    ul.footermenu {margin-left: -15%;}
+    ul.socialize {left: -1%;}
+}
+@media (max-width: 448px){
+    ul.footermenu {margin-left: -25%;}
+    ul.socialize {left: -10%;}
+}
+@media (max-width: 416px){
+    ul.footermenu {margin-left: -33%;}
+    ul.socialize {left: -15%;}
+    h5.footer_afterword {left: 0;}
+}
+@media (max-width: 392px){
+    ul.footermenu {margin-left: -39%;}
+    ul.socialize {width: 101%; left: -23%;}
+}
+@media (max-width: 377px){
+    ul.footermenu {margin-left: -45%;}
+    ul.socialize {width: 110%; left: -25%;}
+}
+@media (max-width: 363px){
+    ul.footermenu {margin-left: -49%;}
+    ul.socialize {width: 112%; left: -29%;}
+}
+@media (max-width: 354px){
+    ul.footermenu li a {font-size: 1rem;}
+}
+@media (max-width: 345px){
+    ul.footermenu {margin-left: -52%;}
+    ul.socialize {width: 118%; left: -29%;}
+}
+@media (max-width: 336px){
+    ul.footermenu li a {font-size: 0.9rem;}
+    ul.footermenu {margin-left: -52%;}
+    ul.socialize {width: 118%; left: -29%;}
+    h5.footer_afterword {font-size: 0.666rem;}
+}
+@media (max-width: 329px){
+    ul.socialize {width: 125%; left: -36%;}
+}
+@media (max-width: 320px){
+    ul.footermenu {margin-left: -45%;}
+    ul.footermenu li a {font-size: 0.8rem;}
+}
+
+
+/* ----- */
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ CHILDREN Page ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+
+/* >>>>> SM/XS <<<<< */
+
+/* ~~ Header ~~ */
+@media (max-width: 1070px){
+    .kinderinfo {top: 30%;}
+}
+@media (max-width: 810px){
+    .kinderinfo {top: 33%;}
+}
+@media (max-width: 767px){
+    .kinderinfo {left: -6%;}
+}
+@media (max-width: 689px){
+    .kinderinfo {top: 36%; left: -5%;}
+    .kinderinfo p {font-size: 1rem;}
+}
+@media (max-width: 603px){
+    .kinderinfo {top: 38%;}
+}
+@media (max-width: 570px){
+    .kinderinfo {top: 39%;}
+    .kinder_chevrondown {display: none;}
+}
+@media (max-width: 475px){
+    .kinderinfo {top: 43%;}
+}
+@media (max-width: 460px){
+    .kinderinfo p {display: none;}
+
+    .section_logo_holder {top: 35%; left: 5%;}
+}
+
+
+/* ~~ Learning Tools ~~ */
+@media (max-width: 1200px){
+    h2.learning_ttl, h2.learning_ttl_II, h2.wbtlk_related_ttl {margin-top: 34px;}
+}
+
+@media (max-width: 1030px){
+    .kinder_dropboxes_holder, .kinder_dropboxes_holder_inner {left: 11%;}
+}
+
+@media (max-width: 991px){
+    h2.learning_ttl, h2.learning_ttl_II, h2.wbtlk_related_ttl {margin-top: 30px;}
+}
+
+@media (max-width: 890px){
+    h2.learning_ttl, h2.learning_ttl_II, h2.wbtlk_related_ttl {margin-top: 27px;}
+    .kinder_dropboxes_holder, .kinder_dropboxes_holder_inner {left: 8%;}
+}
+@media (max-width: 850px){
+    .kinder_dropboxes_holder, .kinder_dropboxes_holder_inner {left: 6%;}
+}
+@media (max-width: 815px){
+    .kinder_dropboxes_holder, .kinder_dropboxes_holder_inner {left: 3%;}
+}
+@media (max-width: 790px){
+    .kinder_dropboxes_holder, .kinder_dropboxes_holder_inner {left: 1%;}
+}
+
+@media (max-width: 767px){
+    .kinder_dropboxes_holder, .kinder_dropboxes_holder_inner {clear: both; left: -17%;}
+    h2.learning_ttl, h2.learning_ttl_II, h2.wbtlk_related_ttl {margin-left: 37%;}
+}
+
+@media (max-width: 525px){
+    .kinder_dropboxes_holder, .kinder_dropboxes_holder_inner {width: 95%; left: -3%;}
+    h2.learning_ttl, h2.learning_ttl_II {margin-left: 33%;}
+}
+
+@media (max-width: 444px){
+    h2.learning_ttl, h2.learning_ttl_II {font-size: 1.7rem;}
+}
+@media (max-width: 390px){
+    h2.learning_ttl, h2.learning_ttl_II {margin-left: 29%;}
+}
+@media (max-width: 390px){
+    h2.learning_ttl, h2.learning_ttl_II {margin-left: 26%;}
+}
+
+
+
+
+/* ~~ Kinder Circle Area ~~ */
+@media (max-width: 1199px){
+    img.kindercircle {width: 210px; height: 210px;}
+    h2.appttl {font-size: 2.1rem;}
+}
+
+@media (max-width: 991px){
+    img.kindercircle {width: 320px; height: 320px;}
+}
+@media (max-width: 767px){
+    img.kindercircle {width: 270px; height: 270px;}
+    .tint {left: 11%;}
+    h2.appttl {font-size: 2.7rem;}
+}
+@media (max-width: 690px){
+    img.kindercircle {width: 250px; height: 250px;}
+}
+@media (max-width: 630px){
+    img.kindercircle {width: 230px; height: 230px;}
+}
+@media (max-width: 625px){
+    p.appinfo {font-size: 1rem;}
+}
+@media (max-width: 595px){
+    h2.appttl {font-size: 2.1rem;}
+}
+@media (max-width: 587px){
+    p.appinfo {font-size: 1.3rem;}
+}
+@media (max-width: 570px){
+    img.kindercircle {width: 210px; height: 210px;}
+    .tint {left: 9%;}
+}
+@media (max-width: 530px){
+    .tint {left: 1%;}
+}
+@media (max-width: 523px){
+    p.appinfo {font-size: 1.1rem;}
+}
+@media (max-width: 470px){
+    img.kindercircle {width: 190px; height: 190px;}
+    h2.appttl {font-size: 2rem;}
+}
+@media (max-width: 440px){
+    img.kindercircle {width: 180px; height: 180px;}
+    h2.appttl {font-size: 1.9rem;}
+    p.appinfo {font-size: 1rem;}
+}
+@media (max-width: 416px){
+    img.kindercircle {width: 170px; height: 170px;}
+    h2.appttl {font-size: 1.8rem;}
+    p.appinfo {font-size: 1.2rem;}
+}
+@media (max-width: 399px){
+    img.kindercircle {width: 160px; height: 160px;}
+    h2.appttl {font-size: 1.7rem;}
+}
+@media (max-width: 376px){
+    img.kindercircle {width: 150px; height: 150px;}
+    h2.appttl {font-size: 1.5rem;}
+    p.appinfo {font-size: 1rem;}
+}
+@media (max-width: 345px){
+    img.kindercircle {width: 140px; height: 140px;}
+    h2.appttl {font-size: 1.5rem;}
+}
+@media (max-width: 339px){
+    img.kindercircle {width: 135px; height: 135px;}
+    h2.appttl {font-size: 1.4rem;}
+}
+@media (max-width: 321px){
+    img.kindercircle {width: 125px; height: 125px;}
+    h2.appttl {font-size: 1.3rem;}
+    p.appinfo {font-size: 0.9rem;}
+
+}
+
+
+
+/* ----- */
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ CHILDREN APP (INNER) Page ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+@media (min-width: 1300px){
+    .kinder_app_circlethumb {
+        top: 15.6%;
+    }
+}
+@media (min-width: 1600px){
+    .kinder_app_circlethumb {
+        top: 13.6%;
+    }
+}
+@media (min-width: 1900px){
+    .kinder_app_circlethumb {
+        top: 12%;
+    }
+}
+@media (min-width: 2500px){
+    .kinder_app_circlethumb {
+        top: 10.8%;
+    }
+}
+
+/* >>>>> SM/XS <<<<< */
+@media (max-width: 1199px){
+    .kinderapp_info_holder {top: 23%;}
+    h2.learning_ttl_II {margin-top: 65px;}
+}
+@media (max-width: 1140px){
+    p.kinderapp_inner_details {font-size: 1.2rem;}
+}
+@media (max-width: 1085px){
+    .kinderapp_info_holder {top: 24%;}
+    .kinderapp_ttl_inner {font-size: 3.8rem;}
+    p.kinderapp_inner_details {font-size: 1.111rem;}
+}
+@media (max-width: 991px){
+    .kinderapp_info_holder {margin-top: -34%;}
+}
+@media (max-width: 970px){
+    .kinderapp_ttl_inner {font-size: 3.3rem;}
+    p.kinderapp_inner_details {font-size: 1rem;}
+}
+@media (max-width: 845px){
+    .kinderapp_info_holder {top: 18%;}
+    .kinderapp_ttl_inner {font-size: 2.5rem; margin-top: 20%;}
+    p.kinderapp_inner_details {font-size: 0.9rem;}
+}
+@media (max-width: 815px){
+    .kinderapp_ttl_inner {font-size: 2.2rem; margin-top: 20%;}
+    p.kinderapp_inner_details {font-size: 0.8rem;}
+}
+
+@media (max-width: 767px){
+    .kinderapp_ttl_inner {font-size: 3rem; margin-top: 20%; position: relative; top: -85px;}
+    p.kinderapp_inner_details {width: 45%; position: relative; top: -75px; }
+    .kinderapp_info_holder {top: 20%; left: 48%;}
+    .kinder_app_circlethumb {top: 16.6%;}
+    a.kinderapp_inner_link {position: relative; top: -65px;}
+}
+@media (max-width: 610px){
+    .kinderapp_ttl_inner {font-size: 2.4rem; top: -65px;}
+    p.kinderapp_inner_details {width: 45%; top: -65px;}
+    .kinderapp_info_holder {top: 20%; left: 48%;}
+}
+@media (max-width: 555px){
+    .kinderapp_ttl_inner {font-size: 2rem; top: -60px;}
+    p.kinderapp_inner_details {top: -60px;}
+}
+@media (max-width: 525px){
+    .kinderapp_ttl_inner {font-size: 1.9rem; top: -51px;}
+}
+@media (max-width: 480px){
+    .kinderapp_ttl_inner {font-size: 1.9rem; top: -34px;}
+    p.kinderapp_inner_details {display: none;}
+    a.kinderapp_inner_link {margin-left: -40%; top: 0;}
+    .kinderapp_info_holder {margin-top: -31%;}
+}
+@media (max-width: 440px){
+    a.kinderapp_inner_link {margin-left: -42%; top: 0;}
+}
+@media (max-width: 410px){
+    a.kinderapp_inner_link {margin-left: -48%; top: 0;}
+    .kinderapp_info_holder {top: 19%;}
+    .kinderapp_ttl_inner {font-size: 2rem; margin-top: 23%;}
+}
+@media (max-width: 375px){
+    .kinderlogo_inner {width: 28%;}
+    .kinder_app_circlethumb {top: 15.5%;}
+    .kinderapp_ttl_inner {font-size: 1.8rem; margin-top: 23%;}
+    .section_logo_holder_inner {width: 37%;}
+    h2.section_ttl_inner {line-height: 0.7;}
+}
+@media (max-width: 320px){
+    .kinderlogo_inner {width: 26%;}
+    .kinderapp_info_holder {top: 24%;}
+    .kinder_app_circlethumb {top: 23%;}
+    .kinderapp_ttl_inner {font-size: 1.5rem; margin-top: 26%;}
+    .section_logo_holder_inner {width: 49%;}
+    a.kinderapp_inner_link {font-size: 1rem; top: -8px;}
+    h2.section_ttl_inner {line-height: 0.9; left: 7%;}
+}
+
+
+
+/* ----- */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ WEBTALKS Page ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+@media (min-width: 2500px){
+    .date_n_viewz {bottom: -21px;}
+}
+
+/* >>>>> SM/XS <<<<< */
+
+/* ~~ Header ~~ */
+@media (max-width: 1190px){
+    .wbtlk_topic_ttl, .wbtlk_topic_ttl_inner {font-size: 2.2rem;}
+}
+@media (max-width: 1019px){
+    .wbtlk_topic_ttl, .wbtlk_topic_ttl_inner {font-size: 2.1rem;}
+}
+@media (max-width: 975px){
+    .wbtlk_topic_ttl, .wbtlk_topic_ttl_inner {font-size: 2rem; width: 107%;}
+    .carousel-indicators {bottom: 3px;}
+    p.webtalk_details {width: 85%;}
+}
+@media (max-width: 862px){
+    .wbtlk_topic_ttl, .wbtlk_topic_ttl_inner {width: 110%;}
+}
+@media (max-width: 839px){
+    .wbtlk_topic_ttl, .wbtlk_topic_ttl_inner {width: 120%;}
+    p.webtalk_details {width: 95%;}
+}
+@media (max-width: 795px){
+    .carousel-indicators {bottom: 1px;}
+    .wbtlk_topic_ttl, .wbtlk_topic_ttl_inner {width: 122%;}
+    p.webtalk_details {width: 100%;}
+}
+
+@media (max-width: 767px){
+    .webtalks_logo_holder {top: -20%;}
+    .wbtlk_ttl {line-height: 0.1; font-size: 1.7rem;}
+    .wbtlk_logo {width: 20%;}
+
+    p.webtalk_details {width: 80%;}
+    .pagerzz {left: 50%;}
+}
+
+@media (max-width: 690px){
+    .carousel-indicators {bottom: -10px;}
+}
+@media (max-width: 650px){
+    .webtalks_info_holder {top: 25%;}
+    .wbtlk_topic_ttl, .wbtlk_topic_ttl_inner {font-size: 1.9rem;}
+    .carousel-indicators {bottom: -10px;}
+    .pagerzz {left: 92%;}
+}
+@media (max-width: 590px){
+    p.webtalk_details {width: 96%;}
+}
+@media (max-width: 530px){
+    .webtalks_info_holder {top: 35%;}
+    .pagerzz {display: none;}
+    p.webtalk_details {display: none;}
+}
+@media (max-width: 440px){
+    .wbtlk_topic_ttl {font-size: 1.8rem;}
+}
+@media (max-width: 400px){
+    .wbtlk_ttl {font-size: 1.3rem;}
+    .wbtlk_topic_ttl {font-size: 1.4rem;}
+    h5.author_name {font-size: 0.9rem;}
+}
+@media (max-width: 375px){
+    .webtalks_info_holder {top: 31%;}
+}
+
+
+/* ~~ WebTalks Videos ~~ */
+@media (max-width: 1199px){
+    span.videotime {top: 45px;}
+}
+@media (max-width: 991px){
+    span.videotime {top: 30px;}
+}
+
+@media (max-width: 767px){
+    .date_n_viewz {bottom: -7px;}
+    span.videotime {top: 165px;}
+    h2.webtalks_video_selection_ttl {margin-left: 4%;}
+    .selection_vid {left: 4%;}
+}
+@media (max-width: 735px){
+    span.videotime {top: 158px;}
+}
+@media (max-width: 705px){
+    span.videotime {top: 150px;}
+}
+@media (max-width: 680px){
+    span.videotime {top: 145px;}
+}
+@media (max-width: 650px){
+    span.videotime {top: 135px;}
+}
+@media (max-width: 615px){
+    span.videotime {top: 125px;}
+}
+@media (max-width: 570px){
+    span.videotime {top: 115px;}
+}
+@media (max-width: 520px){
+    span.videotime {top: 105px;}
+}
+@media (max-width: 485px){
+    span.videotime {top: 95px;}
+}
+@media (max-width: 444px){
+    span.videotime {top: 85px;}
+}
+@media (max-width: 404px){
+    h2.webtalks_video_selection_ttl {font-size: 1.6rem; margin-top: 10%;}
+    span.videotime {top: 75px;}
+}
+
+@media (max-width: 375px){
+    .date_n_viewz {bottom: 11px;}
+}
+@media (max-width: 330px){
+    span.videotime {top: 60px;}
+}
+
+
+/* ~~ Resource Line ~~ */
+@media (max-width: 1199px){
+    .res {height: 90px;}
+}
+@media (max-width: 991px){
+    .res {height: 60px;}
+}
+@media (max-width: 739px){
+    .res {height: 55px;}
+}
+@media (max-width: 704px){
+    .res {height: 50px;}
+}
+@media (max-width: 668px){
+    h2.resources_stripe_ttl {font-size: 2rem;}
+    .res {height: 45px;}
+}
+@media (max-width: 633px){
+    .res {height: 40px;}
+}
+@media (max-width: 603px){
+    ul.r_stripe li {padding-right: 22px;}
+    .res {height: 60px;}
+}
+@media (max-width: 573px){
+    .res {height: 55px;}
+}
+@media (max-width: 539px){
+    .res {height: 50px;}
+}
+@media (max-width: 505px){
+    h2.resources_stripe_ttl {margin-bottom: 25px;}
+    .res {height: 45px;}
+}
+@media (max-width: 469px){
+    ul.r_stripe li {padding-right: 20px;}
+    .res {height: 40px;}
+}
+@media (max-width: 422px){
+    h2.resources_stripe_ttl {font-size: 1.8rem;}
+    .res {height: 36px;}
+}
+@media (max-width: 375px){
+    .res {height: 32px;}
+}
+@media (max-width: 360px){
+    .res {height: 30px;}
+}
+@media (max-width: 320px){
+    .res {height: 25px;}
+}
+
+
+
+/* ~~ Recommended Videos ~~ */
+@media (max-width: 1199px){
+    span.videotime_featured {top: 37px;}
+}
+@media (max-width: 991px) {
+    span.videotime_featured {top: 25px;}
+    h3.rec_vid_ttl {font-size: 1rem;}
+    h5.author_name_black {font-size: 0.8rem;}
+    p.source {font-size: 0.9rem;}
+
+    small.date {font-size: 0.7286rem;}
+    small.view_count {font-size: 0.7286rem;}
+}
+
+@media (max-width: 767px) {
+    .recommended_vid {width: 90%; left: 6%;}
+    h2.recommended_vids_ttl {margin-left: 6.6%;}
+
+    span.videotime_featured {top: 153px;}
+    h3.rec_vid_ttl {font-size: 1.8rem;}
+    h5.author_name_black {font-size: 1.1rem;}
+    p.source {font-size: 1.2rem;}
+
+    small.date {font-size: 1rem;}
+    small.view_count {font-size: 1rem;}
+}
+@media (max-width: 715px) {
+    span.videotime_featured {top: 143px;}
+}
+@media (max-width: 665px) {
+    span.videotime_featured {top: 135px;}
+}
+@media (max-width: 629px) {
+    span.videotime_featured {top: 123px;}
+}
+@media (max-width: 590px) {
+    span.videotime_featured {top: 113px;}
+}
+@media (max-width: 540px) {
+    span.videotime_featured {top: 103px;}
+}
+@media (max-width: 495px) {
+    span.videotime_featured {top: 93px;}
+}
+@media (max-width: 460px) {
+    span.videotime_featured {top: 83px;}
+}
+@media (max-width: 414px) {
+    h2.recommended_vids_ttl {font-size: 1.9rem;}
+    span.videotime_featured {top: 73px;}
+}
+@media (max-width: 365px) {
+    span.videotime_featured {top: 66px;}
+}
+@media (max-width: 335px) {
+    span.videotime_featured {top: 58px;}
+}
+
+
+
+/* ----- */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ WEBTALKS Page ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+
+/* >>>>> SM/XS <<<<< */
+
+/* ~~ Header ~~ */
+@media (max-width: 1180px){
+    .playvid {top: 36%;}
+}
+@media (max-width: 1080px){
+    .playvid {top: 33%;}
+}
+@media (max-width: 991px){
+    .playvid {top: 31%;}
+}
+@media (max-width: 875px){
+    .playvid {top: 29%;}
+}
+@media (max-width: 785px){
+    .playvid {top: 27%;}
+}
+@media (max-width: 767px){
+    .playvid {top: 29%; font-size: 4rem;}
+    .wbtlk_inner_ttl {font-size: 1.5rem; line-height: 0.3;}
+    .wbtlk_inner_logo {width: 19%;}
+}
+@media (max-width: 680px){
+    .playvid {top: 27%; font-size: 4rem;}
+}
+@media (max-width: 620px){
+    .playvid {top: 25%;}
+}
+@media (max-width: 580px){
+    .playvid {top: 25%; font-size: 3rem;}
+}
+@media (max-width: 575px){
+    .wbtlk_topic_ttl_inner {font-size: 1.5rem;}
+}
+@media (max-width: 525px){
+    .playvid {top: 23%;}
+}
+@media (max-width: 470px){
+    .playvid {top: 23%; font-size: 2.5rem;}
+    .wbtlk_topic_ttl_inner {font-size: 1.3rem;}
+    h5.author_name_wbtlk_inner {font-size: 0.9rem;}
+
+    .wbtlk_inner_ttl {font-size: 1rem; line-height: 0.3;}
+    .wbtlk_inner_logo {width: 16%;}
+
+    .webtalks_inner_info_holder {margin-top: 30%;}
+}
+@media (max-width: 425px){
+    .playvid {top: 21%;}
+    .webtalks_logo_area_inner {top: 90px;}
+}
+@media (max-width: 375px){
+    .wbtlk_topic_ttl_inner {font-size: 1.2rem;}
+    h5.author_name_wbtlk_inner {font-size: 0.8rem;}
+}
+@media (max-width: 360px){
+    .wbtlk_topic_ttl_inner {font-size: 1.1rem;}
+    h5.author_name_wbtlk_inner {font-size: 0.8rem;}
+}
+@media (max-width: 325px){
+    .wbtlk_topic_ttl_inner {font-size: 1rem;}
+    h5.author_name_wbtlk_inner {font-size: 0.7111rem;}
+}
+
+
+/* ~~ DATE & VIEWS ~~ */
+@media (max-width: 767px){
+    .date_n_viewz_inner {left: 3%;}
+    h3.date_inner, h3.view_count_inner {font-size: 1.414rem;}
+    p.video_info {margin-left: 3.8%;}
+}
+@media (max-width: 555px){
+    h3.date_inner, h3.view_count_inner {font-size: 1.214rem;}
+    p.video_info {font-size: 1rem;}
+}
+@media (max-width: 435px){
+    h3.date_inner, h3.view_count_inner {font-size: 1.1rem;}
+    p.video_info {font-size: 1rem;}
+}
+
+
+/* ~~ Related WebTalks ~~ */
+@media (max-width: 991px){
+    .wbtlk_dropboxes_holder {left: 0;}
+}
+@media (max-width: 767px){
+    .wbtlk_dropboxes_holder {left: -15%;}
+}
+@media (max-width: 625px){
+    .wbtlk_dropboxes_holder {left: -5%; width: 90%;}
+    h2.wbtlk_related_ttl {margin-left: 32%; margin-top: 5px;}
+}
+@media (max-width: 603px){
+    h2.wbtlk_related_ttl {font-size: 1.9rem;}
+}
+@media (max-width: 525px){
+    h2.wbtlk_related_ttl {margin-left: 31%; font-size: 1.8rem;}
+}
+@media (max-width: 460px){
+    h2.wbtlk_related_ttl {margin-left: 30%; font-size: 1.7rem;}
+}
+@media (max-width: 410px){
+    h2.wbtlk_related_ttl {margin-left: 29%; font-size: 1.6rem;}
+}
+@media (max-width: 385px){
+    h2.wbtlk_related_ttl {margin-left: 28%; font-size: 1.6rem;}
+}
+@media (max-width: 355px){
+    h2.wbtlk_related_ttl {margin-left: 27%; font-size: 1.5rem;}
+}
+@media (max-width: 325px){
+    h2.wbtlk_related_ttl {margin-left: 26%;}
+}
+
+
+
+/* ----- */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ APPS Page ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+/* ~~ Header ~~ */
+@media (min-width: 1600px){
+    .appsinfo {top: 19%;}
+}
+@media (min-width: 2500px){
+    .appsinfo {top: 17%; left: 10%;}
+
+}
+
+/* >>>>> SM/XS <<<<< */
+
+/* ~~ Header ~~ */
+@media (max-width: 991px){
+    .appslogo {width: 35%;}
+    h2.apps_section_ttl {font-size: 2.1rem; margin-top: 5.5%;}
+    .appss_section_logo_holder {left: 46%;}
+}
+@media (max-width: 885px){
+    .appsinfo p {font-size: 1rem;}
+    .appss_section_logo_holder {left: 44%;}
+}
+@media (max-width: 440px){
+    h2.apps_section_ttl {font-size: 1.8rem; margin-top: 9%;}
+}
+@media (max-width: 400px){
+    .appslogo {width: 30%;}
+    h2.apps_section_ttl {font-size: 1.8rem; margin-top: 6%;}
+}
+@media (max-width: 360px){
+    .appss_section_logo_holder {left: 41%;}
+    h2.apps_section_ttl {font-size: 1.7rem; margin-top: 6%;}
+}
+@media (max-width: 320px){
+    .appslogo {width: 28%;}
+    .appss_section_logo_holder {left: 40%;}
+    h2.apps_section_ttl {font-size: 1.5rem; margin-top: 5%;}
+}
+
+
+/* ~~ Featured Apps (Dropboxes) ~~ */
+@media (max-width: 1199px){
+    h2.ebooks_learning_ttl {margin-top: 33px;}
+}
+@media (max-width: 991px){
+    h2.ebooks_learning_ttl {width: 33%; margin-top: 25px; left: 0;}
+}
+@media (max-width: 890px){
+    .ebooks_dropboxes_holder {left: 5%;}
+}
+@media (max-width: 810px){
+    .ebooks_dropboxes_holder {left: 2%;}
+}
+@media (max-width: 767px){
+    h2.ebooks_learning_ttl {left: 37%; font-size: 1.9rem;}
+    .ebooks_dropboxes_holder {clear: both; width: 92%; left: -4%;}
+}
+@media (max-width: 520px){
+    h2.ebooks_learning_ttl {width: 40%; left: 36%; font-size: 1.7rem;}
+}
+@media (max-width: 414px){
+    h2.ebooks_learning_ttl {width: 40%; left: 32%; font-size: 1.7rem;}
+}
+@media (max-width: 378px){
+    h2.ebooks_learning_ttl {width: 50%; left: 32%; font-size: 1.7rem;}
+}
+@media (max-width: 350px){
+    h2.ebooks_learning_ttl {width: 50%; left: 30%; font-size: 1.6rem;}
+}
+@media (max-width: 320px){
+    h2.ebooks_learning_ttl {width: 50%; left: 30%; font-size: 1.5rem;}
+}
+
+
+/* ~~ Apps 8-square line ~~ */
+@media (max-width: 1049px){
+    figure.effect-sadie h4.apps_info_ttl {bottom: 160px; font-size: 1.5rem;}
+}
+@media (max-width: 991px){
+    h5.sm_caption_apps {margin-top: -12%;}
+    figure.effect-sadie h4.apps_info_ttl {bottom: 115px;}
+    figure.effect-sadie p.apps_info {font-size: 0.9rem; bottom: 11px;}
+}
+@media (max-width: 878px){
+    figure.effect-sadie h4.apps_info_ttl {bottom: 135px; font-size: 1.3rem;}
+}
+@media (max-width: 815px){
+    h5.sm_caption_apps {margin-top: -21%;}
+    figure.effect-sadie h4.apps_info_ttl {bottom: 110px;}
+    figure.effect-sadie p.apps_info {font-size: 0.8rem; bottom: 10px;}
+}
+@media (max-width: 767px){
+    .grid figure {width: 50%;}
+    h5.sm_caption_apps {margin-top: 0; right: 0; font-size: 1.6rem;}
+    .grid figure img.app_thumb {height: 50vw;}
+    figure.effect-sadie h4.apps_info_ttl {bottom: 180px; font-size: 2.2rem;}
+    figure.effect-sadie p.apps_info {font-size: 1.2rem; bottom: 75px;}
+}
+@media (max-width: 694px){
+    figure.effect-sadie p.apps_info {font-size: 1.2rem; bottom: 40px;}
+}
+@media (max-width: 620px){
+    figure.effect-sadie h4.apps_info_ttl {bottom: 160px; font-size: 2.2rem;}
+}
+@media (max-width: 597px){
+    figure.effect-sadie h4.apps_info_ttl {bottom: 120px; font-size: 2rem;}
+    figure.effect-sadie p.apps_info {font-size: 1rem; bottom: 20px;}
+}
+@media (max-width: 540px){
+    h5.sm_caption_apps {margin-top: 0; right: 0; font-size: 1.4rem;}
+    .grid figure img.app_thumb {height: 50vw;}
+}
+@media (max-width: 524px){
+    h5.sm_caption_apps {margin-top: -12%; right: 11%; font-size: 1rem;}
+    figure.effect-sadie h4.apps_info_ttl {bottom: 150px; font-size: 1.8rem;}
+}
+@media (max-width: 485px){
+    figure.effect-sadie p.apps_info {font-size: 0.9rem; bottom: 40px;}
+    figure.effect-sadie h4.apps_info_ttl {bottom: 145px; font-size: 1.4rem;}
+}
+@media (max-width: 438px){
+    figure.effect-sadie p.apps_info {display: none;}
+    figure.effect-sadie h4.apps_info_ttl {display: none;}
+}
+@media (max-width: 425px){
+    h5.sm_caption_apps {margin-top: -17%; right: 11%; font-size: 0.9rem;}
+    .grid figure img.app_thumb {height: 50vw;}
+}
+
+
+
+/* ------ */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ APPS INNER Page ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+
+/* >>>>> SM/XS <<<<< */
+
+/* ~~ Header ~~ */
+@media (max-width: 1130px){
+    .apps_logo_holder_inner {top: 10%;}
+    .apps_detailed_info_holder {top: 17%;}
+}
+@media (max-width: 1080px){
+    .ebook_itself_ttl {font-size: 2.371rem;}
+    p.ebook_itself_info {font-size: 1.1rem;}
+}
+@media (max-width: 952px){
+    .ebook_itself_ttl {font-size: 2rem;}
+    p.ebook_itself_info {font-size: 1rem;}
+}
+@media (max-width: 873px){
+    .apps_logo_holder_inner {top: 7%;}
+    .apps_detailed_info_holder {top: 14%;}
+}
+@media (max-width: 853px){
+    .ebook_itself_ttl {font-size: 1.8rem;}
+    p.ebook_itself_info {font-size: 0.9rem;}
+}
+@media (max-width: 790px){
+    .online_stores_holder {margin-top: 2%;}
+}
+
+@media (max-width: 767px){
+    .apps_inner_leftarea_image {height: 95vw;}
+    .apps_inner_detailed_info {width: 100%; height: 59vw;}
+
+    .apps_detailed_info_holder {top: 18%;}
+
+    .online_stores_holder {margin-top: 3%;}
+
+    .ebook_itself_ttl {font-size: 2.1rem;}
+    p.ebook_itself_info {font-size: 1.1rem;}
+}
+@media (max-width: 680px){
+    .apps_inner_detailed_info {height: 67vw;}
+}
+@media (max-width: 603px){
+    .apps_inner_detailed_info {height: 70vw;}
+}
+@media (max-width: 580px){
+    .apps_inner_detailed_info {height: 78vw;}
+}
+@media (max-width: 544px){
+    .apps_inner_detailed_info {height: 83vw;}
+}
+@media (max-width: 510px){
+    .apps_inner_detailed_info {height: 89vw;}
+}
+@media (max-width: 480px){
+    .apps_inner_detailed_info {height: 99vw;}
+}
+@media (max-width: 456px){
+    .apps_inner_detailed_info {height: 115vw;}
+}
+@media (max-width: 410px){
+    .apps_inner_detailed_info {height: 121vw;}
+}
+@media (max-width: 405px){
+    .apps_inner_detailed_info {height: 130vw;}
+}
+@media (max-width: 375px){
+    .apps_inner_detailed_info {height: 139vw;}
+}
+@media (max-width: 363px){
+    .apps_inner_detailed_info {height: 149vw;}
+}
+@media (max-width: 353px){
+    .apps_inner_detailed_info {height: 125vw;}
+
+    .ebook_itself_ttl {font-size: 1.8rem;}
+    p.ebook_itself_info {font-size: 0.9rem;}
+}
+@media (max-width: 345px){
+    .apps_inner_detailed_info {height: 131vw;}
+}
+@media (max-width: 338px){
+    .apps_inner_detailed_info {height: 142vw;}
+}
+@media (max-width: 327px){
+    .onlinestore {padding-right: 1%;}
+}
+
+
+
+/* ------ */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ E-BOOKS Page ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+
+/* >>>>> SM/XS <<<<< */
+
+/* ~~ Header ~~ */
+@media (max-width: 767px){
+    .ebooklogo {width: 25%;}
+    h2.ebooks_section_ttl {font-size: 2rem; line-height: 0.3;}
+}
+@media (max-width: 525px){
+    h2.ebooks_section_ttl {font-size: 1.6rem; left: 5%;}
+}
+@media (max-width: 375px){
+    h2.ebooks_section_ttl {font-size: 1.5rem; left: 5%;}
+}
+@media (max-width: 375px){
+    h2.ebooks_section_ttl {font-size: 1.3rem; left: 5%;}
+}
+
+
+
+/* ~~ Featured e-Books ~~ */
+@media (max-width: 624px){
+    h2.ebooks_learning_ttl {width: 50%;}
+}
+@media (max-width: 414px){
+    h2.ebooks_learning_ttl {font-size: 1.5rem;}
+}
+@media (max-width: 375px){
+    h2.ebooks_learning_ttl {font-size: 1.4rem;}
+}
+
+
+
+/* ~~ e-Books area ~~ */
+@media (max-width: 1199px){
+    .ebookcover {height: 200px;}
+}
+@media (max-width: 991px){
+    .ebookcover {height: 140px;}
+    h2.ebook_ttl {font-size: 1.3rem;}
+    .ebook_holder {min-height: 400px;}
+}
+@media (max-width: 767px){
+    .leftborder.bordertrick {border-left: 1px solid #ccc;}
+    .ebook_holder {width: 50%;}
+    /*.ebookcover {height: 440px;}*/
+    .ebookcover {height: 55vw;}
+    .ebook_holder {min-height: 625px;}
+}
+@media (max-width: 699px){
+    .ebook_holder {min-height: 550px;}
+}
+@media (max-width: 645px){
+    .ebook_holder {min-height: 500px;}
+}
+@media (max-width: 495px){
+    .ebook_holder {min-height: 460px;}
+}
+@media (max-width: 430px){
+    h2.ebook_ttl {font-size: 1.1rem;}
+    p.ebook_details {font-size: 1rem;}
+}
+@media (max-width: 400px){
+    .ebook_holder {width: 96%;}
+    .ebookcover {height: 101vw;}
+}
+
+
+
+/* ----- */
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~ E-BOOKS INNER Page ~~~~~~~~~~~~~~~~~~~~~~ */
+/* >>>>> LG <<<<< */
+
+
+/* >>>>> SM/XS <<<<< */
+
+/* ~~ Header ~~ */
+@media (max-width: 767px){
+    .ebook_detailed_view {width: 100%;}
+    .ebook_detailed_info {width: 100%; min-height: 375px;}
+    .ebook_logo_holder_inner {top: 6%;}
+    .ebook_detailed_info_holder {top: 20%;}
+}
+@media (max-width: 585px){
+    .ebook_detailed_info {min-height: 390px;}
+}
+@media (max-width: 476px){
+    .ebook_detailed_info {min-height: 425px;}
+}
+@media (max-width: 456px){
+    .ebook_detailed_info {min-height: 455px;}
+}
+@media (max-width: 405px){
+    .ebook_detailed_info {min-height: 475px;}
+}
+@media (max-width: 365px){
+    .ebook_detailed_info {min-height: 495px;}
+}
+@media (max-width: 353px){
+    .ebook_detailed_info {min-height: 401px;}
+}
+@media (max-width: 320px){
+    .ebook_detailed_info {min-height: 411px;}
+}
